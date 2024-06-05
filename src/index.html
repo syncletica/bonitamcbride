@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/db7e0a4635.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bonita McBride</title>
+  </head>
+  <body
+    class="md:px-12 px-4 bg-hero-pattern bg-cover bg-center bg-fixed bg-slate-950 tracking-wide"
+  >
+    <div class="m-auto lg:flex max-w-4xl flex-row gap-12">
+      <!--HEADER-->
+      <header
+        class="flex flex-col lg:sticky lg:max-w-30 lg:h-screen pt-24 md:top-0 w-full"
+      >
+        <div class=" ">
+          <h1 class="text-5xl text-white/95 font-bold mb-2 font-satoshi">
+            Bonita McBride
+          </h1>
+        </div>
+        <div class="mb-12">
+          <p class="text-lg text-white/80 font-medium">
+            UX Designer
+          </p>
+          <p class="text-md text-white/80 mt-4">I am a designer who codes, specializing in creating beautiful and intuitive solutions that increase business value with excellent user experience. Currently making the complex simple at <a href="https://www.chaione.com/">ChaiOne.</a> </p>
+        </div>
+        <div class=" ">
+          <ul class="flex flex-wrap gap-1 mb-9">
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Visual Design
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Figma
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Enterprise UX
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              User Research
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Layout Design
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Interaction Design
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Wireframing
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Prototyping
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Webflow
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              HTML
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              CSS
+            </li>
+            <li
+              class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 tracking-wide text-teal-200"
+            >
+              Tailwind CSS
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4">
+          <div class="flex flex-wrap gap-4 items-center" aria-label="Contact">
+            <!-- Add items-center here -->
+            <a href="https://www.linkedin.com/in/bonitamcbride/" target="_blank" rel="noreferrer noopener" aria-label="Linkedin (opens in a new tab)" title="Linkedin"
+              ><i
+                class="fa-brands fa-linkedin fa-2xl text-white/70 hover:text-white/90"
+              ></i
+            ></a>
+            <a href="https://github.com/syncletica" target="_blank" rel="noreferrer noopener" aria-label="Github (opens in a new tab)" title="Github"
+              ><i
+                class="fa-brands fa-github fa-2xl text-white/70 hover:text-white/90"
+              ></i
+            ></a>
+            <a href="https://codepen.io/syncletica" target="_blank" rel="noreferrer noopener" aria-label="Codepen (opens in a new tab)" title="Codepen"
+              ><i
+                class="fa-brands fa-codepen fa-2xl text-white/70 hover:text-white/90"
+              ></i
+            ></a>
+            <div class="relative flex flex-col items-center">
+              <!-- Button to trigger the copy action -->
+              <button
+                onclick="copyEmail()"
+                aria-label="Copy email to clipboard" 
+                title="Copy email"
+                class="px-4 h-10 bg-transparent border-2 text-sm border-white/70 hover:border-white/90 text-white/70 hover:text-white/90 rounded-full"
+              >
+                <i class="fa-solid fa-copy fa-md mr-1.5"></i> Copy Email
+              </button>
+              <!-- Tooltip, initially hidden -->
+              <span
+                id="tooltip"
+                class="opacity-0 absolute bottom-full mb-2 px-3 w-44 bg-slate-950 border border-white/10 text-white text-sm text-center py-2 rounded shadow-lg transition-opacity duration-300 pointer-events-none"
+              >
+                <i class="fa-solid fa-check fa-sm mr-2"></i>Copied to clipboard
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--CONTENT/RIGHTBAR-->
+      
+
+        <div class="w-full relative pt-24">
+          <div class="h-72 overflow-hidden relative rounded-md mb-8">
+            <img
+              class="absolute inset-0 w-full h-full object-cover"
+              src="./assets/esg.png"
+              alt=""
+            />
+            <div
+              class="absolute inset-0 "
+              style="
+                background: linear-gradient(
+                  to top,
+                  rgba(0, 0, 0, 1) 0%,
+                  rgba(0, 0, 0, 0) 100%
+                );
+              "
+            >
+              <div class="absolute bottom-0 left-0 right-0 p-3">
+                <a href="energy-retail.html" class="flex flex-col group">
+                  <h2
+                    class="font-medium text-white/95 tracking-wide group-hover:underline group-hover:underline-offset-2"
+                  >
+                    Energy Retail Product Suite
+                  </h2>
+                  <p class="text-sm text-white/80 tracking-wide">
+                    Conceptual design for CRM, executive dashboard, & customer
+                    portal
+                  </p>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="h-72 overflow-hidden relative rounded-md">
+            <img
+              class="absolute inset-0 w-full h-full object-cover"
+              src="./assets/toolkit.png"
+              alt=""
+            />
+            <div
+              class="absolute inset-0 "
+              style="
+                background: linear-gradient(
+                  to top,
+                  rgba(0, 0, 0, 1) 0%,
+                  rgba(0, 0, 0, 0) 100%
+                );
+              "
+            >
+              <div class="absolute bottom-0 left-0 right-0 p-3">
+                <a href="energy-retail.html" class="flex flex-col group">
+                  <h2
+                    class="font-medium text-white/95 tracking-wide group-hover:underline group-hover:underline-offset-2"
+                  >
+                    Energy Retail Product Suite
+                  </h2>
+                  <p class="text-sm text-white/80 tracking-wide">
+                    Conceptual design for CRM, executive dashboard, & customer
+                    portal
+                  </p>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <footer
+            class="text-white/70 text-sm flex items-center border border-white/50 p-4 my-12 rounded-md"
+          >
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-kiwi-bird fa-xl"></i>
+              <p class="tracking-wide">
+                Designed and coded by me in
+                <span class="font-bold text-white/80">Visual Studio Code</span>
+                with <span class="font-bold text-white/80">Tailwind CSS</span>,
+                deployed with
+                <span class="font-bold text-white/80">Vercel</span>.
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function copyEmail() {
+        const email = "bonitamcbride@gmail.com";
+        navigator.clipboard.writeText(email).then(
+          () => {
+            const tooltip = document.getElementById("tooltip");
+            tooltip.classList.remove("opacity-0");
+            setTimeout(() => {
+              tooltip.classList.add("opacity-0");
+            }, 2000);
+          },
+          (err) => {
+            console.error("Failed to copy email: ", err);
+          }
+        );
+      }
+    </script>
+  </body>
+</html>
